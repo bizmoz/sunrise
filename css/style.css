@@ -155,16 +155,17 @@ color: #000;
 	border: 3px solid green;
 	border-radius: 5px;
 	background-color: green;
-	text-orientation: 
+	text-orientation: lowercase; 
 	}
 .about-main h3{
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 .about-main h5{
 	font-size: 18px;
+	font-weight: 500;
 	color:green;
 }
 .about-main p{

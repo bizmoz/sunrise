@@ -147,19 +147,25 @@ color: #000;
 	padding: 30px 0px;
 }
 .about-main h2{
-	font-size: 26px;
-	font-weight: 600;
+	font-size: 28px;
+	font-weight: bold;
 	margin-bottom: 25px;
 	text-align: center;
-	color: white;
-	border: 3px solid green;
+	color: green;
+	/*border: 3px solid green;
 	border-radius: 5px;
-	background-color: green;
-	text-orientation: lowercase; 
+	background-color: green;*/
+	text-orientation: lowercase;
+	text-shadow: 
+     1px  1px     #fff, 
+    -1px  1px     #fff, 
+     1px -1px     #fff, 
+    -1px -1px     #fff,
+     -1px  1px 5px #555;
 	}
 .about-main h3{
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 700;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }

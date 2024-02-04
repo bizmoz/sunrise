@@ -726,3 +726,19 @@ footer p {
 		font-size: 14px;
 	}
 }
+
+.dose table,th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+.dose th,td{
+  padding: 10px;
+}
+.dose th{
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+.dose tfoot{
+  color: red;
+}

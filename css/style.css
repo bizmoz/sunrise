@@ -498,6 +498,7 @@ footer p {
 	font-size: 24px;
 	margin: 0px;
 	margin-bottom: 20px;
+  padding-top: 15px;
 }
 .blog-entries .card{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
@@ -740,5 +741,21 @@ footer p {
   color: white;
 }
 .dose tfoot{
+  color: red;
+}
+
+.nutri table,th,td{
+  border:2px solid black;
+  border-collapse: collapse;
+}
+.nutri th,td{
+  padding: 2px;
+}
+.nutri th{
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+.nutri tfoot{
   color: red;
 }

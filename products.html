@@ -18,28 +18,21 @@
     <!-- Navigation -->
     <Nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
         <Div class="container">
-            <A class="navbar-brand" href="index.html">
-            <Img src="images/logo.png" alt="logo" />
-            </A>
+            <a class="navbar-brand" href="index.html"><Img src="images/logo.png" alt="logo"/></a><
             <Button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarresponsive" aria-controls="navbarresponsive" aria-expanded="false" aria-label="toggle navigation">
-				<Span class="fas fa-bars"></span>
+			   <Span class="fas fa-bars"></span>
             </Button>
             <Div class="collapse navbar-collapse" id="navbarresponsive">
-               <Ul class="navbar-nav ml-auto">
-                  <Li class="nav-item">
-                     <A class="nav-link" href="index.html">home</a>
-                  </Li>
-                  <Li class="nav-item">
-                     <A class="nav-link" href="about.html">about</a>
-                  </Li>
-                  <Li class="nav-item">
-                     <A class="nav-link active" href="products.html">products</a>
-                  </Li>
-
-                  <Li class="nav-item">
-                     <A class="nav-link" href="contact.html">contact</a>
-                  </Li>
-               </Ul>
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">home</a></li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">about</a></li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="products.html">products</a></li>
+                  <li class="nav-item">
+                     <A class="nav-link" href="contact.html">contact</a></li>
+               </ul>
             </Div>
         </Div>
     </Nav>
@@ -48,9 +41,7 @@
 	<Div class="full-title">
 		<Div class="container">
 			<!-- Page heading/breadcrumbs -->
-			<H1 class="mt-4 mb-3">Products
-				<Small></small>
-			</H1>
+			<H1 class="mt-4 mb-3">Products</H1>
 		</Div>
 	</Div>
 
@@ -58,83 +49,90 @@
     <Div class="container">
 		<Div class="breadcrumb-main">
 			<Ol class="breadcrumb">
-				<Li class="breadcrumb-item">
-					<A href="index.html">Home</a>
-				</Li>
+				<Li class="breadcrumb-item"><a href="index.html">Home</a></Li>
 				<Li class="breadcrumb-item active">Products</li>
 			</Ol>
 		</Div>
+
+      <div id="myBtnContainer">
+         <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+         <button class="btn" onclick="filterSelection('1')"> Chelated</button>
+         <button class="btn" onclick="filterSelection('2')"> Non-Chelated</button>
+         <button class="btn" onclick="filterSelection('3')"> Specialized</button>
+         <button class="btn" onclick="filterSelection('4')"> Economical</button>
+      </div>
 
 		<!-- Image header -->
 		<!-- <Img class="img-fluid rounded mb-4" src="images/services-big.jpg" alt="" /> -->
 
 		<!-- Products section -->
-		<Div class="services-bar">
-            <H1 class="my-4">Chelated</h1>
-            <!-- Services section -->
-            <Div class="row">
+		    <Div class="services-bar">
+            
+            <div class="filterDiv 1">
+               <h1 class="my-4">Chelated</h1>
+                   <!-- Services section -->
+               <Div class="row">
 							<Div class="col-lg-3 col-sm-6 mb-3">
-									<Div class="card h-100">
-
-										 <Div class="card-img">
-												<Img class="img-fluid" src="images/prophomin_rich.jpg" alt="chelated mineral mixture enriched with chromium vitamin a, d3. e & powerful herbal galatogogues" />
-										 </Div>
-										 <H4 class="card-header">prophomin rich</h4>
-										 <Div class="card-body">
-												<P class="card-text">chelated mineral mixture enriched with chromium vitamin a, d3. e & powerful herbal galatogogues</p>
-										 </Div>
-										 <Div class="card-footer">
-												<A href="prophomin_rich.html" class="btn btn-primary">details</a>
-										 </Div>
+								<Div class="card h-100">
+                           <Div class="card-img">
+										<Img class="img-fluid" src="images/prophomin_rich.jpg" alt="chelated mineral mixture enriched with chromium vitamin a, d3. e & powerful herbal galatogogues" />
 									</Div>
-							 </Div>
-               <Div class="col-lg-3 col-sm-6 mb-3">
-                  <Div class="card h-100">
-
-                     <Div class="card-img">
-                        <Img class="img-fluid" src="images/prophomin_gold.jpg" alt="chelated mineral mixture with vitamins" />
-                     </Div>
-										 <H4 class="card-header">prophomin gold</h4>
-                     <Div class="card-body">
-                        <P class="card-text">chelated mineral mixture with vitamins</p>
-                     </Div>
-                     <Div class="card-footer">
-                        <A href="prophomin_gold.html" class="btn btn-primary">details</a>
-                     </Div>
-                  </Div>
-               </Div>
-							 <Div class="col-lg-3 col-sm-6 mb-3">
-									<Div class="card h-100">
-
-										 <Div class="card-img">
-												<Img class="img-fluid" src="images/prophocal_ds.jpg" alt="higher bio- availability of chelated minerals, improve athletic performance and strength" />
-										 </Div>
-										 <H4 class="card-header">prophocal-ds</h4>
-										 <Div class="card-body">
-												<P class="card-text">higher bio- availability of chelated minerals, improve athletic performance and strength</p>
-										 </Div>
-										 <Div class="card-footer">
-												<A href="prophocal_ds.html" class="btn btn-primary">details</a>
-										 </Div>
+									<H4 class="card-header">prophomin rich</h4>
+									<Div class="card-body">
+										<p class="card-text">chelated mineral mixture enriched with chromium vitamin a, d3. e & powerful herbal galatogogues</p>
 									</Div>
-							 </Div>
-							 <Div class="col-lg-3 col-sm-6 mb-3">
-                  <Div class="card h-100">
-
-                     <Div class="card-img">
-                        <Img class="img-fluid" src="images/minovit_gold_gel.jpg" alt="" />
+									<Div class="card-footer">
+										<a href="prophomin_rich.html" class="btn btn-primary">details</a>
+									</Div>
+								</Div>
+							</Div>
+                     <Div class="col-lg-3 col-sm-6 mb-3">
+                        <Div class="card h-100">
+                           <Div class="card-img">
+                              <Img class="img-fluid" src="images/prophomin_gold.jpg" alt="chelated mineral mixture with vitamins" /></Div>
+									<H4 class="card-header">prophomin gold</h4>
+                           <Div class="card-body">
+                              <p class="card-text">chelated mineral mixture with vitamins</p>
+                           </Div>
+                           <Div class="card-footer">
+                              <a href="prophomin_gold.html" class="btn btn-primary">details</a>
+                           </Div>
+                        </Div>
                      </Div>
-										 <H4 class="card-header">Minovit Gold Gel</h4>
-                     <Div class="card-body">
-                        <P class="card-text">Chelated liquid Calcium, Phosphorous with Vitamin D3, B12 & Herbs</p>
+							<Div class="col-lg-3 col-sm-6 mb-3">
+								<Div class="card h-100">
+                           <Div class="card-img">
+										<Img class="img-fluid" src="images/prophocal_ds.jpg" alt="higher bio- availability of chelated minerals, improve athletic performance and strength" /></Div>
+									<H4 class="card-header">prophocal-ds</h4>
+									<Div class="card-body">
+										<P class="card-text">higher bio- availability of chelated minerals, improve athletic performance and strength</p>
+									</Div>
+									<Div class="card-footer">
+										<A href="prophocal_ds.html" class="btn btn-primary">details</a>
+									</Div>
+								</Div>
+							</Div>
+							<Div class="col-lg-3 col-sm-6 mb-3">
+                        <Div class="card h-100">
+                           <Div class="card-img">
+                              <Img class="img-fluid" src="images/minovit_gold_gel.jpg" alt="" />
+                           </Div>
+									<H4 class="card-header">Minovit Gold Gel</h4>
+                           <Div class="card-body">
+                              <P class="card-text">Chelated liquid Calcium, Phosphorous with Vitamin D3, B12 & Herbs</p>
+                           </Div>
+                           <Div class="card-footer">
+                              <A href="minovit_gold_gel.html" class="btn btn-primary">Details</a>
+                           </Div>
+                        </Div>
                      </Div>
-                     <Div class="card-footer">
-                        <A href="minovit_gold_gel.html" class="btn btn-primary">Details</a>
-                     </Div>
-                  </Div>
                </Div>
-            </Div>
-            <H1 class="my-4">Non-Chelated</h1>
+            </div>
+            
+
+            
+            <div class="filterDiv 2">
+               <H1 class="my-4">Non-chelated</h1>
             <!-- Services section -->
             <Div class="row">
 							<Div class="col-lg-3 col-sm-6 mb-3">
@@ -193,14 +191,16 @@
                         <P class="card-text">Liquid supplement of Calcium, Phosphorous Vitamin D3 & B12 for animal feeding.</p>
                      </Div>
                      <Div class="card-footer">
-                        <A href="minovit_gold.html" class="btn btn-primary">Details</a>
+                        <a href="minovit_gold.html" class="btn btn-primary">Details</a>
                      </Div>
                   </Div>
                </Div>
 
-            </Div>
-            <H1 class="my-4">Specialized</h1>
+            </Div></div>
+            
             <!-- Services section -->
+            <div class="filterDiv 3">
+               <H1 class="my-4">Specialized</h1>
             <Div class="row">
                <Div class="col-lg-3 col-sm-6 mb-3">
                   <Div class="card h-100">
@@ -240,10 +240,10 @@
                      </Div>
 										 <H4 class="card-header">prophomin-liv</h4>
                      <Div class="card-body">
-                        <P class="card-text">reliable tonic for healthy liver cattle, live stock & poultry for the above disease</p>
+                        <P class="card-text">Reliable tonic for healthy liver cattle, live stock & poultry for the above disease</p>
                      </Div>
                      <Div class="card-footer">
-                        <A href="#" class="btn btn-primary">details</a>
+                        <A href="prophomin_liv.html" class="btn btn-primary">details</a>
                      </Div>
                   </Div>
                </Div>
@@ -255,18 +255,21 @@
 										 </Div>
 										 <H4 class="card-header">minovit vita d3</h4>
 										 <Div class="card-body">
-												<P class="card-text">compound of fish oil, vitamin a, e & d3</p>
+												<P class="card-text">Compound of fish oil, Vitamin A, E & D3</p>
 										 </Div>
 										 <Div class="card-footer">
-												<A href="#" class="btn btn-primary">details</a>
+												<A href="minovit_vita_d3.html" class="btn btn-primary">details</a>
 										 </Div>
 									</Div>
 							 </Div>
 
 
-            </Div>
-            <H1 class="my-4">Economical</h1>
+            </Div></div>
+
+            
             <!-- Services section -->
+            <div class="filterDiv 4">
+               <H1 class="my-4">Economical</h1>
             <Div class="row">
 
 
@@ -281,12 +284,12 @@
                         <P class="card-text">Mineral mixture feed supplement enriched with amino acid</p>
                      </Div>
                      <Div class="card-footer">
-                        <A href="#" class="btn btn-primary">Details</a>
+                        <A href="lactorich.html" class="btn btn-primary">Details</a>
                      </Div>
                   </Div>
                </Div>
 
-            </Div>
+            </Div></div>
             <!-- /.Row -->
         </Div>
 
@@ -318,5 +321,53 @@
 <!-- Bootstrap core javascript -->
 <Script src="vendor/jquery/jquery.min.js"></script>
 <Script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script>
+      filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}</script>
 </Body>
 </Html>
